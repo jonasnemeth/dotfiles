@@ -1,0 +1,55 @@
+#################################
+# FOCUS (vim-style)
+#################################
+cmd + alt - h : yabai -m window --focus west
+cmd + alt - j : yabai -m window --focus south
+cmd + alt - k : yabai -m window --focus north
+cmd + alt - l : yabai -m window --focus east
+
+#################################
+# SWAP WINDOWS
+#################################
+shift + cmd + alt - h : yabai -m window --swap west
+shift + cmd + alt - j : yabai -m window --swap south
+shift + cmd + alt - k : yabai -m window --swap north
+shift + cmd + alt - l : yabai -m window --swap east
+
+#################################
+# MOVE WINDOWS BETWEEN TILES
+#################################
+ctrl + cmd + alt - h : yabai -m window --warp west
+ctrl + cmd + alt - j : yabai -m window --warp south
+ctrl + cmd + alt - k : yabai -m window --warp north
+ctrl + cmd + alt - l : yabai -m window --warp east
+
+#################################
+# RESIZE (Hyprland-Feeling)
+#################################
+ctrl + cmd + alt - h : yabai -m window --resize left:-40:0
+ctrl + cmd + alt - l : yabai -m window --resize right:40:0
+ctrl + cmd + alt - k : yabai -m window --resize top:0:-40
+ctrl + cmd + alt - j : yabai -m window --resize bottom:0:40
+
+#################################
+# FLOAT / FULLSCREEN
+#################################
+cmd + alt - space : yabai -m window --toggle float
+cmd + alt - f     : yabai -m window --toggle zoom-fullscreen
+
+#################################
+# WORKSPACES (Omarchy / Hyprland)
+#################################
+cmd + alt - 1 : yabai -m space --focus 1
+cmd + alt - 2 : yabai -m space --focus 2
+cmd + alt - 3 : yabai -m space --focus 3
+cmd + alt - 4 : yabai -m space --focus 4
+cmd + alt - 5 : yabai -m space --focus 5
+
+#################################
+# SEND WINDOW TO WORKSPACE
+#################################
+shift + cmd + alt - 1 : yabai -m window --space 1
+shift + cmd + alt - 2 : yabai -m window --space 2
+shift + cmd + alt - 3 : yabai -m window --space 3
+shift + cmd + alt - 4 : yabai -m window --space 4
+shift + cmd + alt - 5 : yabai -m window --space 5
